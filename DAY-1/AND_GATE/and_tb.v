@@ -9,7 +9,6 @@ module andtb;
  a=0; b=1;#5;
  a=1; b=0;#5;
  a=1; b=1;#5;
-//$display("a=%b,b=%b,y=%b",a,b,y);
  end
  initial begin
          $dumpfile("andgate.vcd");

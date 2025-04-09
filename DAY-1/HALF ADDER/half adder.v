@@ -5,7 +5,7 @@ module half_adder (
   output carry
 );
 
-  assign sum = a ^ b;      // XOR for sum
-  assign carry = a & b;    // AND for carry
+  assign sum = a ^ b;      
+  assign carry = a & b;    
 
 endmodule

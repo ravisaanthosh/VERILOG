@@ -2,7 +2,7 @@ module half_adder_tb;
   reg a, b;
   wire sum, carry;
 
-  // Instantiate the half adder
+  
   half_adder uut (.a(a), .b(b), .sum(sum), .carry(carry));
 
   initial begin

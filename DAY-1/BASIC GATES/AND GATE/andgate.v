@@ -9,7 +9,7 @@ and gate(y,a,b);
 endmodule
 
 behavioral modeling      //behavioral modeling
-module andgate(input a,output reg y);
+module andgate(input a,b,output reg y);
 always @ (a or b)
 y=a&b;
 endmodule

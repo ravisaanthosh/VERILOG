@@ -1,4 +1,4 @@
-//xs-3 to bcd
+//BCD to XS-3 code
 module xs(input [3:0] bcd,output reg[3:0] xs);
 always @ (*) begin
 case (xs)

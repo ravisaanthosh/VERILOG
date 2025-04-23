@@ -1,4 +1,4 @@
-//expected output will not sastify
+//expected output will not satisfy
 module dmuxtb;
 reg s0,s1,s2,y;
 wire y0,y1,y2,y3,y4,y5,y6,y7;

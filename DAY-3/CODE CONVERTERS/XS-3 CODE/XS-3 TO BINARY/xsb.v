@@ -1,4 +1,3 @@
-//XS-3 TO BCD CONVERTER
 module xs(input [3:0] XS,output reg[3:0] BCD);
 always @ (*) begin
             case (BCD)

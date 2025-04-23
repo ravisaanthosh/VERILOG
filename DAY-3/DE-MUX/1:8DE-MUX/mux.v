@@ -1,3 +1,4 @@
+//aviod behavioral model for all demux expected output will not satisfy
 behavioral model 
 module dmux(input s0,s1,s2,y,output reg y0,y1,y2,y3,y4,y5,y6,y7);
 always @(*) begin

@@ -17,7 +17,7 @@ endmodule
 Data flow model
 module comp(input [1:0] a,b,output a_eq_b,a_gr_b,a_ls_b);
 assign a_eq_b = ~a & ~b | a & b;
-assign a_gr_b = a & ~b;
+assign a_gr_b = a & ~b; // this condition will assign a>b  when it activate only ~a & b =1 its not operation its to sastify output of a condition dont confuse 
 assign a_ls_b = ~a & b;
 endmodule
 

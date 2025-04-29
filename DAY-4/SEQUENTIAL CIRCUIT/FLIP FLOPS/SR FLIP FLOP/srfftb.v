@@ -3,7 +3,7 @@ reg s,r,clk,rs;
 wire q,qb;
 srff uut(.s(s),.r(r),.clk(clk),.rs(rs),.q(q),.qb(qb));
 initial begin
-$display($time,"s=%b,r=%b,clk=%b,rs=%b,q=%b,qb=%b",s,r,clk,rs,q,qb);
+//$display($time,"s=%b,r=%b,clk=%b,rs=%b,q=%b,qb=%b",s,r,clk,rs,q,qb);
 $dumpfile("sr.vcd");
 $dumpvars;
 end

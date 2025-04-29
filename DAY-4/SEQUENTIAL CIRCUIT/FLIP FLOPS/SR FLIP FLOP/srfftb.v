@@ -16,12 +16,12 @@ initial begin
 $display($time,"s=%b,r=%b,rs=%b,q=%b,qb=%b",s,r,rs,q,qb);
 #10 s=0; r=0; #5; //use to output its capture then display so we add additional #5 
 $display($time,"s=%b,r=%b,rs=%b,q=%b,qb=%b",s,r,rs,q,qb);
-#10 s=0; r=1; #6; //use to output its capture then display so we add additional #5 
+#10 s=0; r=1; #6; //use to output its capture then display so we add additional #8 
 $display($time,"s=%b,r=%b,rs=%b,q=%b,qb=%b",s,r,rs,q,qb);
-#10 s=1; r=0; #10; //use to output its capture then display so we add additional #5 
+#10 s=1; r=0; #10; //use to output its capture then display so we add additional #12 
 $display($time,"s=%b,r=%b,rs=%b,q=%b,qb=%b",s,r,rs,q,qb);
 #10 s=1; r=1;
-#18 //use to output its capture then display so we add additional #5 
+#18 //use to output its capture then display so we add additional #20
 $display($time,"s=%b,r=%b,rs=%b,q=%b,qb=%b",s,r,rs,q,qb);
 #80;
 $finish;

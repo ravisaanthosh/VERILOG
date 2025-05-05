@@ -2,7 +2,10 @@ module srdfftb;
 reg s,r,clk;
 wire qm,qbm;
 srff uut(.s(s),.r(r),.clk(clk),.qs(qm),.qbs(qbm));
+ins uut1(.s(s),.r(r),.clk(clk),.qm(qm),.qbm(qbm));
 initial begin
+  $dumpfile("srtod.vcd");
+  $dumpvars;
 clk=1;
 forever #5 clk=~clk;
 end

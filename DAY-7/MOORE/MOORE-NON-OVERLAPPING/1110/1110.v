@@ -4,7 +4,7 @@ parameter b = 4'd2;
 parameter c = 4'd3;
 parameter d = 4'd4;
 parameter e = 4'd5;
-reg [3:0] st,nx_st;
+  reg [4:0] st,nx_st;
 always @(posedge clk or negedge rst)begin
 if (!rst)begin
 st<=a;

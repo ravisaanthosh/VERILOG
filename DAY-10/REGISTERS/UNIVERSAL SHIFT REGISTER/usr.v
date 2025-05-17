@@ -1,3 +1,5 @@
+
+expected output will be error fix soon as possible
 /*information              universal shift register control ports
 clk--> clock    			          s0	s1	opeartion
 rs---> reset				            0	 0	nochange

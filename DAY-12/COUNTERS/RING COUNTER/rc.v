@@ -6,6 +6,10 @@ else begin
 q[3]<=q[0];
 q[2]<=q[3];
 q[1]<=q[2];
+q[0]<=q[1];
+end
+end
+endmodule
   
 //model two using decoder and mux
 //i will design in 4bit ringcounter using above combinational circuit
@@ -33,8 +37,5 @@ end
 always @(*)begin
 	q=dc;
 end
-endmodule*/
-q[0]<=q[1];
-end
-end
 endmodule
+

@@ -1,3 +1,4 @@
+// TEST CASE -3 output will not satisfy fix soon as possible
 module syncfifo
 #(parameter FIFO_DEPTH = 8,
 parameter DATA_WIDTH = 32)
